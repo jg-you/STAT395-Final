@@ -23,7 +23,9 @@ As alluded to, I have a clear use for this data set in mind. Each team in the NB
 
 
 
+## Visualization
 
+Below is a visualization of each teams passing network, with players names acting as labels.
 
 ![Alt Text](https://github.com/spencerdooley00/STAT395-Final/blob/main/nba_network_labels.svg)
 
