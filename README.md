@@ -14,10 +14,10 @@ All data was scraped from NBA.com. To gather passing data between players, each 
 - **Graph Type:** Directed-Weighted Network where direction is direction of pass, and weight is teh frequency at which that pass is made
 - **Number of Nodes (Players):** 490
 - **Number of Edges:** 5561
-- **Node Attributes:**
+- **Node Attributes:** The node (player) attributes consist of 55 variables, many of them giving per game statistics, while others offer per possesion statistics (which in essence can act as a probability of certain actions bein taken). 
 
 ## Usage
-Any potential use cases for the dataset, along with any relevant applications or fields.
+As alluded to, I have a clear use for this data set in mind. Each team in the NBA can be considered its own network, with each layer having statistically driven probabilites of performing certain actions, such as shooting, passing, dribbling, and then further attributes giving probabilites of success/failure on each action. These NBA team passing networks have the potential to be used as the basis of an accurate, data-driven, and truly explainable predictive model of NBA game outcomes. 
 
 
 
