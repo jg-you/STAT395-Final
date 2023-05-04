@@ -11,22 +11,14 @@ The accompanying data set provided is in the format of a `.graphml file`, called
 All data was scraped from NBA.com. To gather passing data between players, each team was iterated through, then each player on that team, and teh passing data was collected. Here is an example of the passing data gathered (scraped by `nba_network_scraping.py`) for each player: https://www.nba.com/stats/player/1629628/passes-dash?SeasonType=Regular+Season. NBA.com has an abundance of data tables available, for example https://www.nba.com/stats/players/traditional?SeasonType=Regular+Season, which `nba_stats_scraping.py` can scrape. 
 
 ## Data Description
-- **Number of instances:** Total number of instances/observations in the dataset
-- **Number of attributes:** Total number of attributes/features/columns in the dataset
-- **Attribute Information:** A list of the attributes and their corresponding descriptions, along with their data types and any other relevant information
-- **Missing values:** Any missing or null values in the dataset, along with how they are handled (if applicable)
-
-## Data Preparation
-Any preprocessing or data cleaning steps that were taken, along with any tools or scripts used.
-
-## Data Analysis
-Summary statistics, visualizations, or any other analysis performed on the dataset.
+- **Graph Type:** Directed-Weighted Network where direction is direction of pass, and weight is teh frequency at which that pass is made
+- **Number of Nodes (Players):** 490
+- **Number of Edges:** 5561
+- **Node Attributes:**
 
 ## Usage
 Any potential use cases for the dataset, along with any relevant applications or fields.
 
-## License
-Any relevant licensing information for the dataset, including any restrictions or permissions on usage.
 
 
 
