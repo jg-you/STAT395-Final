@@ -8,7 +8,7 @@ The accompanying data set provided is in the format of a `.graphml file`, called
 
 
 ## Source
-Source of the dataset, including any relevant links or citations.
+All data was scraped from NBA.com. To gather passing data between players, each team was iterated through, then each player on that team, and teh passing data was collected. Here is an example of the passing data gathered (scraped by `nba_network_scraping.py`) for each player: https://www.nba.com/stats/player/1629628/passes-dash?SeasonType=Regular+Season. NBA.com has an abundance of data tables available, for example https://www.nba.com/stats/players/traditional?SeasonType=Regular+Season, which `nba_stats_scraping.py` can scrape. 
 
 ## Data Description
 - **Number of instances:** Total number of instances/observations in the dataset
